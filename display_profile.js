@@ -8,6 +8,9 @@ $(document).ready( () => {
 	//$("#zip").text( sessionStorage.zip );
 	//$("#dob").text( sessionStorage.dob );
 
+
+	
+
 	const json = sessionStorage.sess_storage;
 
 	const sess_storage = JSON.parse(sessionStorage.getItem("profile"));
